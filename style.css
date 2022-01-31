@@ -1,11 +1,45 @@
-body {background-color:black;font-family:arial;color:white}
-h1{color:grey;font-family:verdana}
+body {
+	background-image: url("InterestBackground.jpg");
+	font-family:arial;
+	color:white
+}
+h1{
+	color:black;
+	font-family:verdana
+}
+fieldset{
+	border-radius: 10px;
+}
+legend{
+	text-align: center;
+}
 .maindiv {
-    background-color: white;
+    background-color: powderblue;
     color: black;
-    width: 500px;
+    width: 700px;
     padding: 20px;
     border-radius: 25px;
-    box-align: center;
-}
+    margin: 0 auto;
+  }
+#computebutton{
+	color: black;
+	font-family: verdana;
+    background-color: #71bc68;
+    border-radius: 5px;
+    padding: 5px;
+ }
+ #resetbutton{
+	color: black;
+	font-family: verdana;
+    background-color: #ff0000;
+    border-radius: 5px;
+    padding: 5px;
+ }
 
+ label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 75px;
+    text-align: left;
+}
